@@ -5,5 +5,5 @@
 
 ## Overview
 This repository contains the implementation of two creational design patterns for a Smart Home ecosystem:
-1. **Part A: Factory Method** — Dynamic instantiation of environmental sensors (`TemperatureSensor`, `MotionSensor`).
-2. **Part B: Abstract Factory** — Ecosystem-based creation of smart home device families (`Apple HomeKit` vs `Google Home`).
+Part A: Factory Method — creation of Sensor products is delegated to concrete SensorHub subclasses.
+Part B: Abstract Factory — creation of compatible SmartLight and SmartLock families is delegated to platform-specific factories.
